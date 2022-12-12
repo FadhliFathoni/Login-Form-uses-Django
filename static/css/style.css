@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap");
+html {
+  height: 600px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.container {
+  background-color: skyblue;
+  max-width: 374px;
+  max-height: 174px;
+  margin: auto;
+  border-radius: 15px;
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+h1 {
+  margin: 15px;
+  text-align: center;
+  justify-content: center;
+}
+
+.form {
+  justify-content: center;
+  vertical-align: middle;
+}
+
+button.btn.btn-dark {
+  margin: auto;
+  display: flex;
+  vertical-align: middle;
+}
+
+.other{
+    margin: auto;
+}
+
+.google{
+    display: flex;
+}
+
+.facebook{
+    display: flex;
+}
